@@ -23,6 +23,6 @@ def series(n):
 def main():
     m=7
     series(m)
-main()        
+main()
 
 
