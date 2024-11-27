@@ -8,4 +8,4 @@ def reverseNumber(n):
 def main():
     n=321
     print(reverseNumber(n))
-main()        
+main()
