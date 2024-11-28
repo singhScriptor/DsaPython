@@ -19,4 +19,5 @@ def printPattern(m):
             str+="*"
         print(str)
 m=5
-printPattern(m)            
+printPattern(m)
+
