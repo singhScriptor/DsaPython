@@ -10,13 +10,13 @@ def main():
     numbers(n,m)
 main()
 
-# for loop 
+# for loop
 def numbers(n,m):
     for i in range(1,n):
         if(i==m):
             break
         print(i)
 def main():
-    j,k=10,4 
+    j,k=10,4
     numbers(j,k)
-main()           
+main()
