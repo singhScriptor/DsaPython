@@ -11,10 +11,10 @@ numPattern(n)
 def numPattern(n):
     i=1
     while(i<=n):
-        into=0
+        into=''
         j=0
         while(j<i):
-            into+=(j+1)
+            into+=str(j+1)
             j=j+1
         print(into)
         i+=1
