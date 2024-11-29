@@ -6,4 +6,4 @@ def subArray(arr):
                 st+=str(arr[k])
             print(st)
 arr=[1,2,3,4,5]
-subArray(arr)                
+subArray(arr)
