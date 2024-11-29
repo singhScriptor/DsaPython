@@ -59,4 +59,4 @@ n=6
 arr=[]
 for i in range(n):
     arr.append(int(input()))
-print(elementSum(arr,n))        
+print(elementSum(arr,n))
