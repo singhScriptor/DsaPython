@@ -1,7 +1,7 @@
 def leaders(arr):
     nums=[]
-    maxi=arr[-1]
-    nums.insert(0,maxi)
+    maxi=arr[-1] # we can also use here float('-inf')
+    nums.insert(0,maxi) # when use float remove this line
     for i in range(len(arr)-2,-1,-1):
         if(arr[i]>maxi):
             maxi=arr[i]
